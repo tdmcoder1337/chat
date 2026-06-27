@@ -680,7 +680,7 @@ export default function App() {
                 value={groupAddUserId}
                 onChange={(e) => setGroupAddUserId(e.target.value)}
               >
-                <option value="">User tanlang</option>
+                <option value="">User tanlang Dev2</option>
                 {groupCandidates.map((u) => (
                   <option key={u.id} value={u.id}>
                     {u.fullName} (@{u.login})
@@ -707,7 +707,7 @@ export default function App() {
           <section className="composer">
             <input
               className="input"
-              placeholder="Xabar yozing..."
+              placeholder="Xabar yozing... Dev2"
               maxLength="2000"
               value={composerText}
               onChange={(e) => setComposerText(e.target.value)}
@@ -715,7 +715,7 @@ export default function App() {
             />
 
             <div className="row">
-              <label className="btn btn-file" htmlFor="composerImageInput">Rasm</label>
+              <label className="btn btn-file" htmlFor="composerImageInput">Rasm Dev2</label>
               <input
                 id="composerImageInput"
                 type="file"
@@ -724,7 +724,7 @@ export default function App() {
                 onChange={handleComposerImage}
               />
               <span className="small">{composerImageName}</span>
-              <button className="btn btn-send" onClick={sendCurrentMessage}>Yuborish</button>
+              <button className="btn btn-send" onClick={sendCurrentMessage}>Yuborish Saloooooom</button>
             </div>
 
             <div className="error">{chatError}</div>
